@@ -8,7 +8,8 @@
 		"npm": "8.1.2"
 	},
 	"scripts": {
-		"start": "node index.js"
+		"start": "node index.js",
+		"backend": "nodemon index,js"
 	},
 	"repository": {
 		"type": "git",
@@ -22,5 +23,8 @@
 	"homepage": "https://github.com/mrdbcse/chatbot#readme",
 	"dependencies": {
 		"express": "^4.17.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
 	}
 }
