@@ -1,0 +1,26 @@
+{
+	"name": "chatbot",
+	"version": "1.0.0",
+	"description": "chatbot using mern tech stack",
+	"main": "index.js",
+	"engines": {
+		"node": "16.13.1",
+		"npm": "8.1.2"
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mrdbcse/chatbot.git"
+	},
+	"author": "Debjyoti Banerjee",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mrdbcse/chatbot/issues"
+	},
+	"homepage": "https://github.com/mrdbcse/chatbot#readme",
+	"dependencies": {
+		"express": "^4.17.2"
+	}
+}
